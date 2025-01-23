@@ -7,7 +7,7 @@ This program is a command line tool that integrates AI into the classic "Task Ma
 - Python/Python3 interpreter
 - C++ Compiler such as g++ or clang++ (C++ ver. 11 or newer)
 - Have your own OpenAI API reference key
-- IDE such as VSCode
+- IDE (e.g. VSCode)
 
 # Features
 - CRUD: Create, Read, Update, and Delete tasks
