@@ -12,11 +12,11 @@ This program is a command line tool that integrates AI into the classic "Task Ma
 # Features
 - CRUD: Create, Read, Update, and Delete tasks
 - AI Personal Assistant that can do any of the above features after running natural language processing
-- Undo feature
+- Undo functionality
 
 # Data Structures
 - Linked list and binary search trees to store task data
-- stack to store actions for undo functionality
+- stack to store actions for undo commands
 
 # File overview
 - 20 C++ source files that make up the main program
