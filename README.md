@@ -5,7 +5,7 @@ This program is a command line tool that integrates AI into the classic "Task Ma
 
 # Prerequisites
 - Python/Python3 interpreter
-- C++ Compiler such as g++ or clang++
+- C++ Compiler such as g++ or clang++ (C++ ver. 11 or newer)
 - Have your own OpenAI API reference key
 - IDE such as VSCode
 - Proficiency in Data Structure Design in C++ (if your plan is to replicate this program from scratch)
