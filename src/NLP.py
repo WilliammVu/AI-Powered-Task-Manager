@@ -1,5 +1,10 @@
 from openai import OpenAI
+from datetime import date
 import json
+
+today = date.today()
+today_str = today.strftime("%B %d, %Y")
+
 
 client = OpenAI(
     api_key="undisclosed api key"
@@ -27,6 +32,8 @@ system_prompt = (
     "    \"ampm\": \"AM/PM\"\n"
     "  }\n"
     "}\n"
+    f"If date info is missing, or if the user's request mentions \'today\', use {today_str}"
+    "If hour/minute info is missing, assume 11th hour, 59th minute, PM."
     "If any information is missing, leave that field as \"null\"."
 )
 
