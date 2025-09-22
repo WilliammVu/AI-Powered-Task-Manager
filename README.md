@@ -1,20 +1,19 @@
 # AI Powered Task Manager
 
 # Overview
-This program is a command line tool that integrates AI into the classic "Task Manager/To-Do List" application. 
+This program is a CLI tool that integrates AI into the classic "To-Do List" application. 
 
 # Prerequisites
 - Python/Python3 interpreter
 - C++ Compiler such as g++ or clang++ (C++ ver. 11 or newer)
-- Have your own OpenAI API reference key
-- IDE (e.g. VSCode)
+- OpenAI API key & installation
 
 # Features
 - CRUD: Create, Read, Update, and Delete tasks
-- AI Personal Assistant that can do any of the above features after running natural language processing
+- AI Personal Assistant that takes natural language and executes commands
 - Undo functionality
 
-# Data Structures
+# Underlying Data Structure
 - Linked list and binary search trees to store task data
 - stack to store actions for undo commands
 
